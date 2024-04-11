@@ -9,7 +9,7 @@ export const Container = styled.header`
 `;
 
 export const Span = styled.span`
-  color: green;
+  color: #48bb78;
 `;
 
 export const InputSearchContainer = styled.div`
