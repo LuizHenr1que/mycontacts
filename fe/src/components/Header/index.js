@@ -1,4 +1,4 @@
-import { Container, InputSearchContainer, Span } from './styles';
+import { Container, Span } from './styles';
 
 export default function Header() {
   return (
@@ -7,10 +7,6 @@ export default function Header() {
         My
         <Span>Contacts</Span>
       </h1>
-
-      <InputSearchContainer>
-        <input type="text" placeholder="Pesquisar pelo nome... " />
-      </InputSearchContainer>
     </Container>
   );
 }
