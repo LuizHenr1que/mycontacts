@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const Container = styled.div`
+  margin-top: 32px;
+  position: relative;
+`;
+
 export const InputSearchContainer = styled.div`
   width: 100%;
 
@@ -17,10 +22,6 @@ export const InputSearchContainer = styled.div`
       color: #BCBCBC;
     }
   }
-`;
-
-export const Container = styled.div`
-  margin-top: 32px;
 `;
 
 export const Header = styled.header`

@@ -11,12 +11,12 @@ import {
 import arrow from '../../assets/imagens/icons/arrow.svg';
 import edit from '../../assets/imagens/icons/edit.svg';
 import trash from '../../assets/imagens/icons/trash.svg';
-import Modal from '../../components/Modal';
 
 export default function Home() {
   return (
     <Container>
-      <Modal danger />
+      {/** <Modal danger /> */}
+      {/** <Loader /> */}
 
       <InputSearchContainer>
         <input type="text" placeholder="Pesquisar pelo nome... " />
